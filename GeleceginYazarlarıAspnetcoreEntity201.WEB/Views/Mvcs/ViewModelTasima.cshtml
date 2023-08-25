@@ -1,0 +1,13 @@
+﻿@using GeleceginYazarlarıAspnetcoreEntity201.WEB.Controllers
+@{
+    ViewData["Title"] = "ViewModelTasima";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model List<Product2>;
+<h1>ViewModel Taşıma</h1>
+
+@foreach (var item in Model)
+{
+    <p>@item.Id - @item.Name - @item.SurName - @item.Age </p>
+}
