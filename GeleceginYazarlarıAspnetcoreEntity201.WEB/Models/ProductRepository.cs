@@ -10,9 +10,6 @@ namespace GeleceginYazarlarıAspnetcoreEntity201.WEB.Models
             new Product { Id = 5, Name = "kalem 2", Price = 200, Stock = 100 },
             new Product { Id = 6, Name = "kalem 3", Price = 300, Stock = 50 }
         };
-        //public List<Product> GetAll() => _products.ToList();
-
-       
         public List<Product> GetAll() => _products;
 
 
